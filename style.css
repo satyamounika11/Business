@@ -22,7 +22,7 @@ header{
 }
 
 header .logo{
-	font-size: 24px;
+	font-size: 28px;
 	text-transform: uppercase;
 	color: black;
 	text-decoration: none;
@@ -94,6 +94,8 @@ section{
 	position: relative;
 	width: 100%;
 	display: flex;
+	padding: 0;
+	margin: 0;
 }
 
 .about .matter{
@@ -124,6 +126,37 @@ section{
 	background-position: center;
 }
 
+.services{
+	background: #12222d;
+	padding: 100px;
+	text-align: center;
+}
 
+.services .container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 60px;
+}
 
+.services .container .offers{
+	position: relative;
+	background: #fff;
+	width: 350px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.services .container .offers img{
+	max-width: 100px;
+}
+
+.services .container .offers h2{
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
